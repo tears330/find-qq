@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Result render result 1`] = `
+<body>
+  <div>
+    <div
+      class="com-result"
+    >
+      <p>
+        Woops! Something went wrong :(
+      </p>
+      <p>
+        test
+      </p>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Result render result 2`] = `
+<body>
+  <div>
+    <div
+      class="com-result"
+    >
+      <p>
+        Woops! Something went wrong :(
+      </p>
+      <p>
+        test2
+      </p>
+    </div>
+  </div>
+</body>
+`;

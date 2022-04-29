@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spin render spin 1`] = `
+<body>
+  <div>
+    test
+  </div>
+</body>
+`;
+
+exports[`Spin render spin 2`] = `
+<body>
+  <div>
+    <div
+      class="com-spin"
+    >
+      <div
+        class="com-spin-loading"
+      >
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+      </div>
+      <div
+        class="com-spin-wrapper"
+      >
+        test again
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Spin render spin 3`] = `
+<body>
+  <div>
+    test
+  </div>
+</body>
+`;

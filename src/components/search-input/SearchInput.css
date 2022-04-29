@@ -1,0 +1,39 @@
+.com-search {
+  position: relative;
+  display: block;
+}
+
+.com-search input {
+  width: 100%;
+  border-radius: 0;
+  border: 0;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.8);
+  font-size: 60px;
+  height: 104px;
+  line-height: 104px;
+  padding: 15px 0;
+  transition: all 0.3s;
+  background: transparent;
+  outline: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.com-search input::-webkit-search-cancel-button {
+  display: none;
+}
+
+.com-search:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 0;
+  background: #fcd908;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all 0.9s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.com-search:focus-within:after {
+  width: 100%;
+}
