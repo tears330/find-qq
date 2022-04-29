@@ -2,6 +2,7 @@
   "name": "find-qq",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tears330.github.io/find-qq",
   "dependencies": {
     "axios": "^0.27.2",
     "react": "^18.1.0",
@@ -14,7 +15,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "publish:gh": "npm run build & gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
