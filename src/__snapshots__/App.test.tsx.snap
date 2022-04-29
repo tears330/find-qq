@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`find qq basic render 1`] = `
+<body>
+  <div>
+    <div
+      class="App"
+    >
+      <header
+        class="App-header"
+      >
+        🕵️ QQ 号查询
+      </header>
+      <section
+        class="search-section"
+      >
+        <div
+          class="com-search"
+        >
+          <input
+            autocomplete="off"
+            maxlength="10"
+            type="search"
+            value=""
+          />
+        </div>
+      </section>
+      <section
+        class="result-section"
+      />
+    </div>
+  </div>
+</body>
+`;
+
+exports[`find qq basic render 2`] = `
+<body>
+  <div>
+    <div
+      class="App"
+    >
+      <header
+        class="App-header"
+      >
+        🕵️ QQ 号查询
+      </header>
+      <section
+        class="search-section"
+      >
+        <div
+          class="com-search"
+        >
+          <input
+            autocomplete="off"
+            maxlength="10"
+            type="search"
+            value="123123"
+          />
+        </div>
+      </section>
+      <section
+        class="result-section"
+      >
+        <div
+          class="com-account-card"
+        >
+          <img
+            alt="123123"
+            src="https://q2.qlogo.cn/headimg_dl?spec=100&dst_uin=123123"
+          />
+          <div
+            class="com-account-card-info"
+          >
+            <div
+              class="com-account-card-info-name"
+            >
+              test
+            </div>
+            <div
+              class="com-account-card-info-qq"
+            >
+              123123
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`find qq basic render 3`] = `
+<body>
+  <div>
+    <div
+      class="App"
+    >
+      <header
+        class="App-header"
+      >
+        🕵️ QQ 号查询
+      </header>
+      <section
+        class="search-section"
+      >
+        <div
+          class="com-search"
+        >
+          <input
+            autocomplete="off"
+            maxlength="10"
+            type="search"
+            value="123"
+          />
+        </div>
+      </section>
+      <section
+        class="result-section"
+      >
+        <div
+          class="com-result"
+        >
+          <p>
+            Woops! Something went wrong :(
+          </p>
+          <p>
+            error-test
+          </p>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`find qq basic render 4`] = `
+<body>
+  <div>
+    <div
+      class="App"
+    >
+      <header
+        class="App-header"
+      >
+        🕵️ QQ 号查询
+      </header>
+      <section
+        class="search-section"
+      >
+        <div
+          class="com-search"
+        >
+          <input
+            autocomplete="off"
+            maxlength="10"
+            type="search"
+            value="1233"
+          />
+        </div>
+      </section>
+      <section
+        class="result-section"
+      >
+        <div
+          class="com-result"
+        >
+          <p>
+            Woops! Something went wrong :(
+          </p>
+          <p>
+            网络异常
+          </p>
+        </div>
+      </section>
+    </div>
+  </div>
+</body>
+`;

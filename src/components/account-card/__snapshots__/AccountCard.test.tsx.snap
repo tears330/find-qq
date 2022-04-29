@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountCard render card element 1`] = `
+<body>
+  <div>
+    <div
+      class="com-account-card"
+    >
+      <img
+        alt="876192777"
+        src="https://q2.qlogo.cn/headimg_dl?spec=100&dst_uin=876192777"
+      />
+      <div
+        class="com-account-card-info"
+      >
+        <div
+          class="com-account-card-info-name"
+        >
+          木小末
+        </div>
+        <div
+          class="com-account-card-info-qq"
+        >
+          876192777
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`AccountCard render card element 2`] = `
+<body>
+  <div>
+    <div
+      class="com-account-card"
+    >
+      <img
+        alt="7777777"
+        src="https://q2.qlogo.cn/headimg_dl?spec=100&dst_uin=876192777"
+      />
+      <div
+        class="com-account-card-info"
+      >
+        <div
+          class="com-account-card-info-name"
+        >
+          木小末
+        </div>
+        <div
+          class="com-account-card-info-qq"
+        >
+          7777777
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
